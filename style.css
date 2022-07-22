@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/imges/backimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.header > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    top: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar > img{
+    width: 40px;
+    height: 40px;
+    border-radius: 33px;
+    margin: 0px 15px;
+}
+
+.nav-link{
+    margin:0px 10px;
+    text-decoration: none;
+    background-color: cornsilk;
+    padding: 10px 10px;
+    border-radius: 20px;
+    color: black;
+}
+
+.nav-link:hover{
+    background-color: rgb(230, 215, 19);
+}
+
+.header-title{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.main-btn{
+    background-color: rgba(255, 166, 0, 0.212);
+    border-color: rgba(255, 166, 0, 0.267);
+    padding: 10px 35px;
+    border-radius: 10px;
+    font-family: cursive;
+    font-size: 15px;
+    
+}
+
+.main-btn:hover{
+    background-color: rgb(250, 169, 18);
+}
